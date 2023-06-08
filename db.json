@@ -1,0 +1,33 @@
+{
+  "colores": [
+    {
+      "color": "asdasd23232",
+      "rgb": "ddddddd",
+      "id": 1
+    },
+    {
+      "color": "QQQ",
+      "rgb": "AAAAAA222",
+      "id": 2
+    },
+    {
+      "color": "eeeeeee",
+      "rgb": "qweqwe",
+      "id": 3
+    }
+  ],
+  "degradados": [
+    {
+      "id": 1,
+      "tipo": "blanco con negro"
+    },
+    {
+      "id": 2,
+      "tipo": "verde con rojo"
+    },
+    {
+      "id": 3,
+      "tipo": "amarillo con azul"
+    }
+  ]
+}
