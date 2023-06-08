@@ -97,9 +97,8 @@
               })
             },
               res = await axios("http://localhost:3000/colores", options),
-              json = await res.json();
+              json = await res.data;
 
-            if (!res.ok) throw { status: res.status, statusText: res.statusText };
 
             location.reload();
           } catch (err) {
@@ -121,8 +120,6 @@
             },
               res = await axios(`http://localhost:3000/colores/${e.target.id.value}`, options),
               json = await res.data;
-
-            if (!res.ok) throw { status: res.status, statusText: res.statusText };
 
             location.reload();
           } catch (err) {
@@ -154,9 +151,7 @@
               }
             },
               res = await axios(`http://localhost:3000/colores/${e.target.dataset.id}`, options),
-              json = await res.json();
-
-            if (!res.ok) throw { status: res.status, statusText: res.statusText };
+              json = await res.data;
 
             location.reload();
           } catch (err) {
@@ -165,7 +160,7 @@
           }
         }
       }
-    })
+    });
    
    
    </script>
